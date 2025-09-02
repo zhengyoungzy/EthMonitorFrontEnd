@@ -1,0 +1,89 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Dependencies
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Cache
+.cache/
+.tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+
+# Docker
+*.dockerfile
+docker-compose.override.yml
+
+# --- React / Frontend (Vite) ---
+
+# Dependency directory
+eth-monitor-frontend/node_modules/
+
+# Build output
+eth-monitor-frontend/dist/
+
+# Local env
+eth-monitor-frontend/.env
+eth-monitor-frontend/.env.local
+eth-monitor-frontend/.env.*.local
+
+# Cache
+eth-monitor-frontend/.vite/
+eth-monitor-frontend/.eslintcache
